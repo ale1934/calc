@@ -1,0 +1,50 @@
+.rounded-button {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-color:rgba(0, 0, 0, 0.268);
+  font-size: larger;
+}
+
+.screen {
+  position: relative;
+  font-size: large;
+}
+
+.res {
+  position: absolute;
+  bottom:0;
+  right:0;
+}
+
+.enter-button {
+  background-color: white;
+  width: 105px;
+  height: 50px;
+  border-color:rgba(0, 0, 0, 0.268);
+  font-size: larger;
+}
+
+.buttons {
+  width: 213px;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  border-top: 0;
+}
+
+.clear-button {
+  background-color: white;
+  width: 213px;
+  height: 50px;
+  border-color:rgba(0, 0, 0, 0.268);
+  font-size: larger;
+}
+
+.screen {
+  width: 212px;
+  height: 50px;
+  border: 3px;
+  border-style: solid;
+  border-color: black;
+}
