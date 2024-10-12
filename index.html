@@ -10,43 +10,31 @@
   </head>
 
   <body>
-    <div class = "screen">
-      <label id="num1"></label>
-      <label id="oper"></label>
-      <label id="num2"></label>
-      <label class="res" id="result"></label>
+    
+    <div id="calculator">
+      <input id="display" readonly></input>
+      <div id="keys">
+        <button onclick="appendToDisplay('+')" class="operator-btn">+</button>
+        <button onclick="appendToDisplay('7')">7</button>
+        <button onclick="appendToDisplay('8')">8</button>
+        <button onclick="appendToDisplay('9')">9</button>
+        <button onclick="appendToDisplay('-')" class="operator-btn">-</button>
+        <button onclick="appendToDisplay('4')">4</button>
+        <button onclick="appendToDisplay('5')">5</button>
+        <button onclick="appendToDisplay('6')">6</button>
+        <button onclick="appendToDisplay('*')" class="operator-btn">*</button>
+        <button onclick="appendToDisplay('1')">1</button>
+        <button onclick="appendToDisplay('2')">2</button>
+        <button onclick="appendToDisplay('3')">3</button>
+        <button onclick="appendToDisplay('/')" class="operator-btn">/</button>
+        <button onclick="appendToDisplay('0')">0</button>
+        <button onclick="appendToDisplay('.')">.</button>
+        <button onclick="calculate()">=</button>
+        <button onclick="clearDisplay()" class="operator-btn">C</button>
+      </div>
     </div>
 
     <script src="app.js"></script>
-
-    <div class = "buttons">
-    <div>
-      <button onclick="number(1)" class="rounded-button">1</button>
-      <button onclick="number(2)" class="rounded-button">2</button>
-      <button onclick="number(3)" class="rounded-button">3</button>
-      <button onclick="operator('*')" class="rounded-button">*</button>
-    </div>
-    <div>
-      <button onclick="number(4)" class="rounded-button">4</button>
-      <button onclick="number(5)" class="rounded-button">5</button>
-      <button onclick="number(6)" class="rounded-button">6</button>
-      <button onclick="operator('/')" class="rounded-button">/</button>
-    </div>
-    <div>
-      <button onclick="number(7)" class="rounded-button">7</button>
-      <button onclick="number(8)" class="rounded-button">8</button>
-      <button onclick="number(9)" class="rounded-button">9</button>
-      <button onclick="operator('-')" class="rounded-button">-</button>
-    </div>
-    <div>
-      <button onclick="operator('+')" class="rounded-button">+</button>
-      <button onclick="number(0)" class="rounded-button">0</button>
-      <button onclick="getResult()" class="enter-button">=</button>
-    </div>
-    <div>
-      <button onclick="refresh()" class="clear-button">CLEAR</button>
-    </div>
-    </div>
 
   </body>
 </html>
